@@ -4,6 +4,10 @@ body {
   background-color: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -69,7 +73,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-3.jpeg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -295,7 +299,7 @@ a:focus {
 }
 
 .us_section {
-  background-image: url(../images/us-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-4.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -342,7 +346,7 @@ a:focus {
 }
 
 .heathy_section {
-  background-image: url(../images/healthy-bg.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-5.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -387,7 +391,7 @@ a:focus {
 }
 
 .trainer_section {
-  background-image: url(../images/trainer-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-2.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;

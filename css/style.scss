@@ -5,7 +5,9 @@ $primary1: #ff2953;
 @mixin main-font {
   font-family: 'Poppins', sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
   display: inline-block;
   padding: $pad1 $pad2;
@@ -87,7 +89,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-3.jpeg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -305,7 +307,7 @@ a:focus {
 // us section
 
 .us_section {
-  background-image: url(../images/us-bg.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-4.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: $white;
@@ -346,7 +348,7 @@ a:focus {
 // heathy section
 
 .heathy_section {
-  background-image: url(../images/healthy-bg.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-5.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: $white;
@@ -379,7 +381,7 @@ a:focus {
 // trainer section
 
 .trainer_section {
-  background-image: url(../images/trainer-bg.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/pic-2.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: $white;
